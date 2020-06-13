@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Connect 4</title>
+    <link href="style.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <h1>Connect 4</h1>
+    <p><span id="turn"></span> player's turn.</p>
+    <div id="connect4"></div>
+    <script>
+        $(document).ready(function () {
+            const connect4 = new Connect4('#connect4');
+        });
+    </script>
+</body>
+
+</html>
